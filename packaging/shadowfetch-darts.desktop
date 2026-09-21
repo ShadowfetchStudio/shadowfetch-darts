@@ -1,0 +1,14 @@
+[Desktop Entry]
+Type=Application
+Version=1.0
+Name=Shadowfetch Darts
+GenericName=Darts
+Comment=301, 501, Cricket, and Around the Clock for Linux
+Exec=shadowfetch-darts
+TryExec=shadowfetch-darts
+Icon=shadowfetch-darts
+Terminal=false
+Categories=Game;
+Keywords=darts;301;501;cricket;shadowfetch;
+StartupNotify=true
+StartupWMClass=Shadowfetch Darts

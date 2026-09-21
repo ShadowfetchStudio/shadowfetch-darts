@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="plate" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#1c1012"/>
+      <stop offset="0.5" stop-color="#0c090a"/>
+      <stop offset="1" stop-color="#070608"/>
+    </linearGradient>
+    <linearGradient id="rim" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#e8b4a4"/>
+      <stop offset="0.45" stop-color="#c45a4a"/>
+      <stop offset="1" stop-color="#6a241c"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="36%" cy="30%" r="58%">
+      <stop offset="0" stop-color="#e07060" stop-opacity="0.30"/>
+      <stop offset="1" stop-color="#0c090a" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="barrel" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#f2d8c8"/>
+      <stop offset="0.4" stop-color="#c45a4a"/>
+      <stop offset="1" stop-color="#3a1614"/>
+    </linearGradient>
+  </defs>
+  <rect x="36" y="36" width="440" height="440" rx="118" fill="url(#plate)"/>
+  <rect x="36" y="36" width="440" height="440" rx="118" fill="url(#glow)"/>
+  <rect x="48" y="48" width="416" height="416" rx="108" fill="none" stroke="url(#rim)" stroke-width="10"/>
+  <g transform="translate(248 268)">
+    <circle r="132" fill="#141214" stroke="#8a4038" stroke-width="8"/>
+    <path d="M0,-118 A118,118 0 0,1 69,-96 L0,0 Z" fill="#8b1c22"/>
+    <path d="M69,-96 A118,118 0 0,1 114,-32 L0,0 Z" fill="#d8c6b0"/>
+    <path d="M114,-32 A118,118 0 0,1 114,32 L0,0 Z" fill="#8b1c22"/>
+    <path d="M114,32 A118,118 0 0,1 69,96 L0,0 Z" fill="#1a1a1c"/>
+    <path d="M69,96 A118,118 0 0,1 0,118 L0,0 Z" fill="#8b1c22"/>
+    <path d="M0,118 A118,118 0 0,1 -69,96 L0,0 Z" fill="#1a3d30"/>
+    <path d="M-69,96 A118,118 0 0,1 -114,32 L0,0 Z" fill="#1a1a1c"/>
+    <path d="M-114,32 A118,118 0 0,1 -114,-32 L0,0 Z" fill="#8b1c22"/>
+    <path d="M-114,-32 A118,118 0 0,1 -69,-96 L0,0 Z" fill="#d8c6b0"/>
+    <path d="M-69,-96 A118,118 0 0,1 0,-118 L0,0 Z" fill="#1a1a1c"/>
+    <circle r="22" fill="#1a3d30" stroke="#c45a4a" stroke-width="4"/>
+    <circle r="9" fill="#c45a4a"/>
+  </g>
+  <g transform="rotate(-38 330 170)">
+    <rect x="292" y="156" width="118" height="10" rx="4" fill="url(#barrel)"/>
+    <polygon points="410,161 428,148 428,174" fill="#e8b4a4"/>
+    <rect x="286" y="154" width="14" height="14" rx="3" fill="#f2d8c8"/>
+  </g>
+</svg>
