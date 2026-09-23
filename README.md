@@ -6,6 +6,17 @@
 
 ![Board](docs/screenshots/board.png)
 
+## Download
+
+Get `shadowfetch-darts-1.0.0-linux-x86_64.tar.gz` from the [latest release](https://github.com/Shadowfetchapps/shadowfetch-darts/releases/latest) (x86_64 Linux), then:
+
+```bash
+sha256sum -c shadowfetch-darts-1.0.0-linux-x86_64.tar.gz.sha256
+tar -xzf shadowfetch-darts-1.0.0-linux-x86_64.tar.gz
+cd shadowfetch-darts-1.0.0-linux-x86_64
+./tools/install_linux.sh
+```
+
 ## Run
 
 ```bash
