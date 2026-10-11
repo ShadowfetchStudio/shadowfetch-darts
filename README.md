@@ -8,7 +8,7 @@
 
 ## Download
 
-Get `shadowfetch-darts-1.0.0-linux-x86_64.tar.gz` from the [latest release](https://github.com/Shadowfetchapps/shadowfetch-darts/releases/latest) (x86_64 Linux), then:
+Get `shadowfetch-darts-1.0.0-linux-x86_64.tar.gz` from the [latest release](https://github.com/ShadowfetchStudio/shadowfetch-darts/releases/latest) (x86_64 Linux), then:
 
 ```bash
 sha256sum -c shadowfetch-darts-1.0.0-linux-x86_64.tar.gz.sha256
